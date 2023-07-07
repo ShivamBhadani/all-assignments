@@ -5,7 +5,6 @@ const jwt = require('jsonwebtoken');
 
 app.use(express.json());
 
-const mongoURI="mongodb+srv://sbhad:aaaaa111@cluster0.btdlo0e.mongodb.net/";
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true, dbName: "courses" });
 
 
